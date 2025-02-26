@@ -17,4 +17,6 @@ public with sharing class AccountHandler {
             throw new AuraHandledException(e.getMessage());
         }
     }
+
+    private DataAccess m_dataAccess = DataAccess.LEGACY;
 }
