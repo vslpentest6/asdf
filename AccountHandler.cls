@@ -1,4 +1,4 @@
-public with sharing class AccountHandler {
+public class AccountHandler {
     
     // Exposing method to be used in Lightning Components or LWC
     @AuraEnabled(cacheable=true)
